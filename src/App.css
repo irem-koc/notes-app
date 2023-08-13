@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background-color: #EAEAEA;
   font-style: normal;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
@@ -47,13 +46,14 @@
   padding: 0 15px;
 }
 .buttons>button {
-  padding: 15px;
   margin-right: 5px;
-  width: 15px;
-  border-radius: 15px;
+  padding: 10px;
+  width: 40px;
+  border-radius: 40px;
   outline: none;
   border:none;
   cursor: pointer;
+  align-items: center;
 }
 .add-btn{
   background-color: #44C767;
@@ -81,4 +81,8 @@
 
 .green {
   background-color: #AED581;
+}
+.check-icon{
+  margin:0 auto;
+  width: 15px;
 }
